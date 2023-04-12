@@ -1,0 +1,65 @@
+body {
+    color: white;
+}
+    
+
+.container {
+    background-color: hsl(194, 100%, 31%);
+    max-width: 1000px;
+    padding: 1.5rem;
+    margin: auto;
+}
+
+a {
+    color: hsl(194, 100%, 70%);
+}
+
+li {
+    display: inline-block;
+    margin-left: -20px;
+    padding-right: 50px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.answer > p {
+    color: green;
+    text-decoration: none;
+}
+
+.t1 {
+    width: 600px;
+}
+
+.t2 {
+    width: 600px;
+}
+
+td {
+    color: black;
+}
+
+.male {
+    background-color: #bbb;
+    color: #222;
+}
+
+.female {
+    background-color: #ccc;
+    color: #111;
+}
+
+.t2 .male {
+    display: none;
+}
+
+table, td, th {
+    border: 1px solid;
+    border-collapse: collapse;
+    border-width: medium;
+    border-color: white;
+}
